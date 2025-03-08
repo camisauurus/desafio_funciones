@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 4</title>
+  </head>
+  <body>
+    <div
+      id="color1"
+      width="200px"
+      style="background-color: blue; width: 200px; height: 200px">
+    </div>
+    <div
+      id="color2"
+      width="200px"
+      style="background-color: red; width: 200px; height: 200px">
+    </div>
+    <div
+      id="color3"
+      width="200px"
+      style="background-color: green; width: 200px; height: 200px">
+    </div>
+    <div
+      id="color4"
+      width="200px"
+      style="background-color: yellow; width: 200px; height: 200px">
+    </div>
+    <script>
+      let col1 = document.getElementById("color1");
+      let col2 = document.getElementById("color2");
+      let col3 = document.getElementById("color3");
+      let col4 = document.getElementById("color4");
+
+      col1.addEventListener(
+        "click",
+        () => (col1.style.backgroundColor = "black")
+      );
+      col2.addEventListener(
+        "click",
+        () => (col2.style.backgroundColor = "black")
+      );
+      col3.addEventListener(
+        "click",
+        () => (col3.style.backgroundColor = "black")
+      );
+      col4.addEventListener(
+        "click",
+        () => (col4.style.backgroundColor = "black")
+      );
+    </script>
+  </body>
+</html>
